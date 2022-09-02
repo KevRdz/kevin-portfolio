@@ -38,3 +38,73 @@ html{
   width: 55px;
   height: 53px;
 }
+
+p{
+  margin: auto;
+}
+
+.about-sec{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.about-p{
+  margin-right: 1000px;
+}
+
+.cert-sec{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.cert-p{
+  margin-left: 1000px;
+}
+
+.skills-sec{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.skills-p{
+  margin-right: 1000px;
+}
+
+.skills-img{
+  text-align: center;
+}
+
+.pro-sec{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.pro-p{
+  margin-left: 1000px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-p{
+    margin: auto;
+  }
+
+  .cert-p{
+    margin: auto;
+  }
+
+  .skills-p{
+    margin: auto;
+  }
+
+  .pro-p{
+    margin: auto;
+  }
+}
