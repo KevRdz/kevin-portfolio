@@ -40,29 +40,54 @@ html{
 }
 
 p{
-  margin: auto;
+  font-size: large;
 }
 
 .about-sec{
   display: flex;
   align-items: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   text-align: left;
+  /* float: left; */
+  /* text-align: left; */
 }
 
-.about-p{
-  margin-right: 1000px;
+.left{
+  /* width: 50%;
+  float: left; */
+  margin-right: 300px;
+}
+
+.right{
+  margin-top: 50px;
+  margin-right: 100px;
+} 
+
+.self-img{
+  border-radius: 50%;
 }
 
 .cert-sec{
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-direction: row;
   text-align: right;
 }
 
-.cert-p{
-  margin-left: 1000px;
+.cert-pdf{
+  /* margin-left: 1000px; */
+  display: flex;
+  float: left;
+  flex-direction: row;
+  margin: 0 50px;
+}
+
+.cert-text{
+  /* display: flex; */
+  /* justify-content: flex-end;
+  text-align: right; */
+  /* margin-left: 200px; */
 }
 
 .skills-sec{
@@ -89,6 +114,10 @@ p{
 
 .pro-p{
   margin-left: 1000px;
+}
+
+h1{
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 900px) {
