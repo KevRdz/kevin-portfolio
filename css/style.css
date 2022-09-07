@@ -4,7 +4,7 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 50px;
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -34,11 +34,6 @@ html{
   text-align: center;
 }
 
-.css-img{
-  width: 55px;
-  height: 53px;
-}
-
 p{
   font-size: large;
 }
@@ -51,6 +46,7 @@ p{
   text-align: left;
   /* float: left; */
   /* text-align: left; */
+  margin-left: 50px;
 }
 
 .left{
@@ -73,6 +69,8 @@ p{
   justify-content: flex-end;
   flex-direction: row;
   text-align: right;
+  margin-right: 50px;
+  margin-top: 100px;
 }
 
 .cert-pdf{
@@ -97,11 +95,13 @@ p{
   /* flex-wrap: wrap; */
   flex-direction: row;
   text-align: left;
+  margin: 0 50px;
+  align-items: center;
 }
 
 .skills-txt{
   /* margin-right: 1000px; */
-
+  margin-right: 200px;
 }
 
 .skills-img{
@@ -109,10 +109,16 @@ p{
   /* justify-content: center; */
   /* flex-wrap: wrap; */
   flex-direction: row;
-  margin-right: 100px;
+  /* margin-right: 100px; */
   /* float: left; */
   align-items: center;
   margin-top: 220px;
+}
+
+.skills-img img{
+  margin-left: 5px;
+  margin-right: 5px;
+
 }
 
 .pro-sec{
@@ -120,6 +126,7 @@ p{
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  margin: 0 50px;
 }
 
 .pro-card{
@@ -131,7 +138,12 @@ p{
 }
 
 h1{
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+h2{
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 900px) {
