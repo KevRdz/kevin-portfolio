@@ -82,12 +82,12 @@ p{
   align-items: center;
 }
 
-.cert-text{
-  /* display: flex; */
-  /* justify-content: flex-end;
-  text-align: right; */
-  /* margin-left: 200px; */
-}
+/* .cert-text{
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  margin-left: 200px;
+} */
 
 .skills-sec{
   display: flex;
