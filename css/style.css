@@ -93,16 +93,25 @@ p{
 .skills-sec{
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   text-align: left;
 }
 
-.skills-p{
-  margin-right: 1000px;
+.skills-txt{
+  /* margin-right: 1000px; */
+
 }
 
 .skills-img{
-  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  margin-right: 100px;
+  /* float: left; */
+  align-items: center;
+  margin-top: 150px;
 }
 
 .pro-sec{
