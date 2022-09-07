@@ -116,13 +116,15 @@ p{
 
 .pro-sec{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
-  text-align: right;
+  text-align: center;
 }
 
-.pro-p{
-  margin-left: 1000px;
+.pro-card{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
 }
 
 h1{
