@@ -136,7 +136,7 @@ p{
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  margin: 0 50px;
+  margin: 0 100px;
 }
 
 .pro-card{
@@ -154,6 +154,14 @@ h1{
 
 h2{
   margin-bottom: 50px;
+}
+
+p{
+  font-size:x-large;
+}
+
+iframe{
+  margin-top: 150px;
 }
 
 @media only screen and (max-width: 900px) {
