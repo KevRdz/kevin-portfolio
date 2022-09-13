@@ -2,7 +2,7 @@
 
 ![pic of my site](assets/images/screenshot.png)
 ---
-This is my personal coding portfolio which contains three pages. Page one is about me, and page two contains my resume. Lastly page three will contain all of the projects I've worked on. It also has links to my personal Github and linkedin pages.
+This is my coding portfolio which contains three basic sections. It starts with an about me section. Followed by a section with my resume and certificate, then a skills section after that. It finishes off with a project section that contains all the projects I've worked on.
 ---
 # [Visit my site here](https://kevins-code-portfolio.netlify.app/)
 
