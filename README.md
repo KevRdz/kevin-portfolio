@@ -4,7 +4,7 @@
 ---
 This is my personal coding portfolio which contains three pages. Page one is about me, and page two contains my resume. Lastly page three will contain all of the projects I've worked on. It also has links to my personal Github and linkedin pages.
 ---
-# [Visit my site here](kevins-code-portfolio.netlify.app)
+# [Visit my site here](https://kevins-code-portfolio.netlify.app/)
 
 Tech Used
 ---
